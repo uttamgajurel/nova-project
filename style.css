@@ -1,0 +1,143 @@
+*{
+    font-family: raleway;
+}
+.navbar-toggle{
+    background-color: #000;
+}
+.icon-bar{
+    background-color: #fff;
+}
+.corp{
+    font-weight: bolder;
+    margin-top: 0;
+}
+.nav{
+    font-weight: bolder;
+    margin-top: 12px;
+}
+.navbar .nav li a{
+    color: #008080;
+}
+.navbar .nav li a:hover,.navbar .nav li a:focus,.navbarr .nav li a.active{
+    color: #000;
+    text-decoration: none;
+    background: cadetblue;
+    border-radius: 10px;
+    
+}
+.decr{
+    color: grey;
+    font-family: raleway;
+    font-size: medium;
+}
+.btn{
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+}
+.ima{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.s{
+    color: chocolate;
+}
+.buttons{
+    background: dodgerblue;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    height: 8vh;
+}
+.buttons:hover{
+    background: primary;
+    color: white;
+}
+.con{
+    font-size: 45px;
+}
+.btn-info{
+    width: 50%;
+    letter-spacing: 2px;
+    color: grey;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.icn{
+    font-size: 17px;
+}
+hr{
+    width: 80%;
+}
+.testimonials{
+    margin-top: 30px;
+}
+
+/* footer section css */
+footer{
+    position: relative;
+    width: 100%;
+    background: #fff;
+    min-height: 100px;
+    padding: 20px 50px;
+    align-items: center;
+    flex-direction: column;
+}
+footer .social_icon,footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+footer .social_icon li,footer .menu li{
+    list-style: none;
+}
+footer .social_icon li a{
+    font-size: 2em;
+    color: #008080;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social_icon li a:hover{
+    transform: translate(-10px);
+}
+footer .menu li a{
+    font-size: 1.2em;
+    color: #008080;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: 0.5s;
+}
+footer .menu li a:hover{
+    opacity: 1;
+}
+footer p{
+    color: #008080;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+@keyframes animateWave{
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x: 0;
+    }
+}
+@keyframes animateWave_02{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x:1000px;
+    }
+}
